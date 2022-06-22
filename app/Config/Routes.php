@@ -39,7 +39,7 @@ $routes->get('/', 'Home::index');
 
 // apiRest
 
-$routes->get('/customer', ['controller' => 'App\Controllers\Ctr_customers::loadCostumer']);
+$routes->get('/customer', 'Home::index');
 
 /*
  * --------------------------------------------------------------------
