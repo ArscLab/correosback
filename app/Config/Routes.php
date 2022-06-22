@@ -39,7 +39,7 @@ $routes->get('/', 'Home::index');
 
 // apiRest
 
-$routes->get('/customer', 'Home::index');
+$routes->get('/customer', 'Ctr_customers::loadCostumer');
 
 /*
  * --------------------------------------------------------------------

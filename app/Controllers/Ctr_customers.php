@@ -5,17 +5,16 @@ namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
 
-class Ctr_customers extends BaseController
+class Ctr_customers extends ResourceController
 {
 
-    //protected $Mdcostumer = 'App\Models\Md_customer';
+    protected $Mdcostumer = 'App\Models\Md_customer';
 
-    //protected $format = 'json';
+    protected $format = 'json';
 
     public function loadCostumer()
     {
-        return view('welcome_message');
-        //return $this->respond($this->model->getCustomer());
+        return $this->respond($this->model->getCustomer());
     }
 
     public function deleteCostumer()
