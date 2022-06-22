@@ -11,7 +11,7 @@ class Md_customer extends Model
     {
         $query = $this->db->query("SELECT * FROM Tbl_customers");
         
-        return $query;
+        return $query->result();
     }
 }
 
