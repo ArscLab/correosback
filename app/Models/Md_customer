@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use CodeIgniter\Model;
+
+class UserModel extends Model
+{
+    public function getCustomer()
+    {
+        $query = $this->db->query("getCustomers()");
+
+        return $query->result();
+    }
+}
+
+?>
