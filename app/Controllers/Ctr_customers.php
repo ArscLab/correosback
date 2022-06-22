@@ -14,8 +14,8 @@ class Ctr_customers extends ResourceController
 
     public function loadCostumer()
     {
-        echo $this->model->getCostumer();
-        //return $this->respond($this->model->getCustomer());
+        //echo $this->model->getCostumer();
+        return $this->respond($this->model->getCustomer());
     }
 
     public function deleteCostumer()
