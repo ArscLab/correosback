@@ -39,7 +39,7 @@ $routes->get('/', 'Ctr_customer::load');
 
 // apiRest
 
-$routes->get('/customers/load','App/Controllers/Ctr_customer::load');
+$routes->get('/customers/load','App/Controllers/Ctr_customers::load');
 
 /*
  * --------------------------------------------------------------------
