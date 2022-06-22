@@ -8,7 +8,7 @@ use CodeIgniter\RESTful\ResourceController;
 class Ctr_customers extends ResourceController
 {
 
-    protected $Mdcostumer = 'App\Models\Md_customer.php';
+    protected $Mdcostumer = 'App\Models\Md_customer';
 
     protected $format = 'json';
 
