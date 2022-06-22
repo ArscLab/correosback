@@ -10,9 +10,11 @@ class Home extends ResourceController
 
     protected $Mdcostumer = 'App\Models\Md_customer';
 
+    protected $format = 'json';
+
     public function loadCostumer()
     {
-        return $this->respond($Mdcustomer->getCustomer());
+        return $this->respond($this->model->getCustomer());
     }
 
     public function deleteCostumer()
