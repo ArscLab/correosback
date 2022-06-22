@@ -17,7 +17,7 @@ class Ctr_customers extends ResourceController
         //echo $this->model->getCostumer();
         $db  = \Config\Database::connect();
         //$this->db->table('Tbl_customers');
-        $query = $db->table("Tbl_customers");
+        //$query = $db->table("Tbl_customers");
         $query = $db->query("call getCustomers()");
         
         $rest = $query->getResult('array');
