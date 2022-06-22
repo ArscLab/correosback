@@ -42,8 +42,8 @@ class Ctr_customers extends ResourceController
         $last = $this->request->getVar("last");
         $phone = $this->request->getVar("phone");
         $idC = $this->request->getVar("idCard");
-        $query = $db->query("call createCustomer($name,$first,$last,$phone,$idC)");
-        
+        $query = $db->query("call createCustomer('$name','$first','$last','$phone','$idC')");
+
         return $this->respond(1);
         //echo $this->request;
         //return $this->respond($query->getResult('array'));
