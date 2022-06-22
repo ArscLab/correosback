@@ -22,8 +22,10 @@ class Ctr_customers extends ResourceController
     public function deleteCostumer()
     {
         $db  = \Config\Database::connect();
-        $query = $db->query("call deleteCustomer()");
-        return $this->respond($query->getResult('array'));
+
+        $id = $this->request->getVar("id");
+        $query = $db->query("call deleteCustomer($id)");
+        return $this->respond(1);
     }
 
     public function updateCostumer()
