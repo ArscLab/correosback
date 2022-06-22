@@ -4,10 +4,10 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class UserModel extends Model
+class Md_customer extends Model
 {
     
-    public function getCustomer()
+    public function getCostumer()
     {
         $query = $this->db->query("SELECT * FROM Tbl_customers");
         
