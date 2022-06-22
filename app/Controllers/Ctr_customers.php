@@ -24,15 +24,26 @@ class Ctr_customers extends ResourceController
         $db  = \Config\Database::connect();
 
         $id = $this->request->getVar("id");
-        $query = $db->query("call deleteCustomer($id)");
-        return $this->respond(1);
+        $resp = 0;
+        if(strlen($id) > 0 && is_numeric($id)){
+            $query = $db->query("call deleteCustomer($id)");
+            $resp = 1;
+        }
+        return $this->respond($resp);
+       
     }
 
     public function updateCostumer()
     {
         $db  = \Config\Database::connect();
-        $query = $db->query("call updateCustomer()");
-        return $this->respond($query->getResult('array'));
+        //$query = $db->query("call createCustomer()");
+        $name = $this->request->getVar("name");
+        $first = $this->request->getVar("first");
+        $last = $this->request->getVar("last");
+        $phone = $this->request->getVar("phone");
+        $id = $this->request->getVar("id");
+        $query = $db->query("call updateCustomer('$name','$first','$last','$phone',$id)");
+        return $this->respond(1);
     }
 
     public function insertCostumer()

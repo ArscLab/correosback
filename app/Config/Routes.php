@@ -43,6 +43,8 @@ $routes->get('/customer', 'Ctr_customers::loadCostumer');
 
 $routes->post('/customer/created', 'Ctr_customers::insertCostumer');
 
+$routes->post('/customer/update', 'Ctr_customers::updateCostumer');
+
 $routes->post('/customer/delete', 'Ctr_customers::deleteCostumer');
 
 
