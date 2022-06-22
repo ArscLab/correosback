@@ -10,7 +10,7 @@ class Md_customer extends Model
 
     public function getCostumer()
     {
-        $this->db->table('Tbl_customers');
+        //$this->db->table('Tbl_customers');
         $query = $this->db->query("call getCustomers()");
         
         return $query->getResult('array');
