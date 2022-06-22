@@ -35,11 +35,11 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->resource('/', ['controller' => 'App\Controllers\Ctr_customers::load']);
+$routes->get('/', 'Home::load');
 
 // apiRest
 
-$routes->get('/customers/load','App\Controllers\Ctr_customers::load');
+$routes->get('/customer/load', ['controller' => 'App\Controllers\Ctr_customers::load']);
 
 /*
  * --------------------------------------------------------------------
