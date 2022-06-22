@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class Md_customer extends Model
 {   
-    protected $table   = 'Tbl_customers';
+    protected $tableName  = 'Tbl_customers';
 
     public function getCostumer()
     {
