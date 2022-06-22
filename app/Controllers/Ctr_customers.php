@@ -5,7 +5,7 @@ namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
 
-class Home extends BaseController
+class Ctr_customers extends BaseController
 {
 
     //protected $Mdcostumer = 'App\Models\Md_customer';
