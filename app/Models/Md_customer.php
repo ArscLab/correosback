@@ -9,9 +9,9 @@ class UserModel extends Model
     
     public function getCustomer()
     {
-        $query = $this->db->query("SELECT * FROM Tbl_customer");
+        $query = $this->db->query("SELECT * FROM Tbl_customers");
         
-        return $query->result();
+        return $query;
     }
 }
 
