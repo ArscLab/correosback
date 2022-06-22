@@ -9,7 +9,7 @@ class Md_customer extends Model
     
     public function getCostumer()
     {
-        //$this->db = \Config\Database::connect();
+        $this->db = \Config\Database::connect();
         $this->builder = $this->db->table('Tbl_customers'); 
         $query = $this->db->query("call getCustomers()");
         
