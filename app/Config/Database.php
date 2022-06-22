@@ -33,7 +33,7 @@ class Database extends Config
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'adminn',
+        'username' => 'admin',
         'password' => 'correos',
         'database' => 'DbCorreos',
         'DBDriver' => 'MySQLi',
