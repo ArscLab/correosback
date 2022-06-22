@@ -37,8 +37,8 @@ class Ctr_customers extends ResourceController
     {
         $db  = \Config\Database::connect();
         //$query = $db->query("call createCustomer()");
-
-        echo $this->request;
+        return $this->respond("hola");
+        //echo $this->request;
         //return $this->respond($query->getResult('array'));
     }
 }
