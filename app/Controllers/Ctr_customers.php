@@ -21,16 +21,24 @@ class Ctr_customers extends ResourceController
 
     public function deleteCostumer()
     {
-        return view('welcome_message');
+        $db  = \Config\Database::connect();
+        $query = $db->query("call deleteCustomer()");
+        return $this->respond($query->getResult('array'));
     }
 
     public function updateCostumer()
     {
-        return view('welcome_message');
+        $db  = \Config\Database::connect();
+        $query = $db->query("call updateCustomer()");
+        return $this->respond($query->getResult('array'));
     }
 
     public function insertCostumer()
     {
-        return view('welcome_message');
+        $db  = \Config\Database::connect();
+        //$query = $db->query("call createCustomer()");
+
+        echo $this->request;
+        //return $this->respond($query->getResult('array'));
     }
 }

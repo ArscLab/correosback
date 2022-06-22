@@ -41,6 +41,8 @@ $routes->get('/', 'Home::index');
 
 $routes->get('/customer', 'Ctr_customers::loadCostumer');
 
+$routes->post('/customer/created', 'Ctr_customers::insertCostumer');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
