@@ -6,16 +6,13 @@ use CodeIgniter\Model;
 
 class Md_customer extends Model
 {   
+    protected $table   = 'Tbl_customers';
 
     public function getCostumer()
     {
-        //$query = $this->db->query("call getCustomers()");
+        $query = $this->db->query("call getCustomers()");
         
-        //return $query->getResult('array');
-
-
-        $builder = $this->db->table('Tbl_customers');
-        $query   = $builder->get();
+        return $query->getResult('array');
     }
 }
 
