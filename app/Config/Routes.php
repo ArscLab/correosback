@@ -43,7 +43,7 @@ $routes->get('/customer', 'Ctr_customers::loadCustomer');
 
 $routes->get('/customer/lastId', 'Ctr_customers::getLastId');
 
-$routes->get('/customer/getCustomer', 'Ctr_customers::getCustomer');
+$routes->post('/customer/getCustomer', 'Ctr_customers::getCustomer');
 
 
 $routes->post('/customer/created', 'Ctr_customers::insertCustomer');
