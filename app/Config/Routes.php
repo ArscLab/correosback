@@ -39,13 +39,18 @@ $routes->get('/', 'Home::index');
 
 // apiRest
 
-$routes->get('/customer', 'Ctr_customers::loadCostumer');
+$routes->get('/customer', 'Ctr_customers::loadCustomer');
 
-$routes->post('/customer/created', 'Ctr_customers::insertCostumer');
+$routes->get('/customer/lastId', 'Ctr_customers::getLastId');
 
-$routes->post('/customer/update', 'Ctr_customers::updateCostumer');
+$routes->get('/customer/getCustomer', 'Ctr_customers::getCustomer');
 
-$routes->post('/customer/delete', 'Ctr_customers::deleteCostumer');
+
+$routes->post('/customer/created', 'Ctr_customers::insertCustomer');
+
+$routes->post('/customer/update', 'Ctr_customers::updateCustomer');
+
+$routes->post('/customer/delete', 'Ctr_customers::deleteCustomer');
 
 
 

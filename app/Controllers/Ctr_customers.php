@@ -15,14 +15,14 @@ class Ctr_customers extends ResourceController
 
     protected $format = 'json';
 
-    public function loadCostumer()
+    public function loadCustomer()
     {
         $db  = \Config\Database::connect();
         $query = $db->query("call getCustomers()");
         return $this->respond($query->getResult('array'));
     }
 
-    public function deleteCostumer()
+    public function deleteCustomer()
     {
         $db  = \Config\Database::connect();
 
@@ -36,7 +36,7 @@ class Ctr_customers extends ResourceController
        
     }
 
-    public function updateCostumer()
+    public function updateCustomer()
     {
         $db  = \Config\Database::connect();
         //$query = $db->query("call createCustomer()");
@@ -49,7 +49,7 @@ class Ctr_customers extends ResourceController
         return $this->respond(1);
     }
 
-    public function insertCostumer()
+    public function insertCustomer()
     {
         $db  = \Config\Database::connect();
         //$query = $db->query("call createCustomer()");
@@ -61,6 +61,29 @@ class Ctr_customers extends ResourceController
         $query = $db->query("call createCustomer('$name','$first','$last','$phone','$idC')");
 
         return $this->respond(1);
+        //echo $this->request;
+        //return $this->respond($query->getResult('array'));
+    }
+
+    public function getLastId()
+    {
+        $db  = \Config\Database::connect();
+        //$query = $db->query("call createCustomer()");
+        $query = $db->query("call lastId()");
+
+        return $this->respond($query->getResult('array'));
+        //echo $this->request;
+        //return $this->respond($query->getResult('array'));
+    }
+
+    public function getCustomer()
+    {
+        $db  = \Config\Database::connect();
+        //$query = $db->query("call createCustomer()");
+        $idC = $this->request->getVar("id");
+        $query = $db->query("call getCustomer()");
+
+        return $this->respond($query->getResult('array'));
         //echo $this->request;
         //return $this->respond($query->getResult('array'));
     }
