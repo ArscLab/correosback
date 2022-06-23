@@ -59,19 +59,14 @@ class Ctr_customers extends ResourceController
         $phone = $this->request->getVar("phone");
         $idC = $this->request->getVar("idCard");
         $query = $db->query("call createCustomer('$name','$first','$last','$phone','$idC')");
-
-        return $this->respond(1);
-        //echo $this->request;
-        //return $this->respond($query->getResult('array'));
-    }
-
-    public function getLastId()
-    {
-        $db  = \Config\Database::connect();
-        //$query = $db->query("call createCustomer()");
-        $query = $db->query("call lastId()");
-
-        return $this->respond($query->getResult('array'));
+        $rsLast = $db->query("call lastId()");
+        $lastId = 0;
+        foreach ($rsLast->getResult() as $row) {
+            $lastId = $row->id;
+        }
+        $infoC = $db->query("call getCustomer('$lastId')");
+        
+        return $this->respond($infoC->getResult('array'));
         //echo $this->request;
         //return $this->respond($query->getResult('array'));
     }
