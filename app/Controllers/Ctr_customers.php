@@ -81,7 +81,7 @@ class Ctr_customers extends ResourceController
         $db  = \Config\Database::connect();
         //$query = $db->query("call createCustomer()");
         $idC = $this->request->getVar("id");
-        $query = $db->query("call getCustomer()");
+        $query = $db->query("call getCustomer('$idC')");
 
         return $this->respond($query->getResult('array'));
         //echo $this->request;
