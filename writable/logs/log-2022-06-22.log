@@ -1,0 +1,571 @@
+CRITICAL - 2022-06-22 00:01:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:01:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:01:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:01:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:01:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:01:57 --> Call to undefined method App\Models\Md_customer::getCustomer()
+in APPPATH/Controllers/Ctr_customers.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:03:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:04:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:04:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:19 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:07:25 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:08:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:08:32 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:08:33 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:08:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:08:34 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:09:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:09:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:09:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:09:04 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:09:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:09:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:09:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:09:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:10:00 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:10:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:10:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:10:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:10:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:10:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:10:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:10:42 --> Call to undefined method App\Models\Md_customer::getCustomer
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:11:40 --> Call to undefined method App\Models\Md_customer::getCustomer
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:11:41 --> Call to undefined method App\Models\Md_customer::getCustomer
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:11:42 --> Call to undefined method App\Models\Md_customer::getCustomer
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:11:43 --> Call to undefined method App\Models\Md_customer::getCustomer
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:11:43 --> Call to undefined method App\Models\Md_customer::getCustomer
+in SYSTEMPATH/Model.php on line 773.
+ 1 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:13:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:14:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:14:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:14:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:14:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:15:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:15:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:15:09 --> You must set the database table to be used with your query.
+in SYSTEMPATH/Database/BaseConnection.php on line 874.
+ 1 SYSTEMPATH/Model.php(586): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH/Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH/Controllers/Ctr_customers.php(18): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:15:45 --> Call to undefined method App\Models\Md_customer::getCustomer()
+in APPPATH/Controllers/Ctr_customers.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 00:16:49 --> Call to a member function getCustomer() on null
+in APPPATH/Controllers/Ctr_customers.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->loadCostumer()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-22 09:55:26 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+in APPPATH/Controllers/Ctr_customers.php on line 41.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->insertCostumer()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-22 10:06:47 --> Unknown column 'mau3' in 'field list'

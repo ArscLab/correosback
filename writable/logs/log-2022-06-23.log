@@ -1,0 +1,7 @@
+ERROR - 2022-06-23 00:36:14 --> Incorrect number of arguments for PROCEDURE DbCorreos.getCustomer; expected 1, got 0
+CRITICAL - 2022-06-23 00:36:14 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Ctr_customers.php on line 86.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Ctr_customers->getCustomer()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
